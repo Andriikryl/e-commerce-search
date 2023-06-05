@@ -19,7 +19,11 @@ nav {
     width: 24rem;
     font-size: 30px;
   }
-  
+  .price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
   .nav-icons {
     width: 2.5rem;
     height: 2.5rem;

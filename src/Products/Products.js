@@ -17,15 +17,16 @@ export default function Products() {
             <div className="card-reviews"></div>
           </div>
           <div>
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
+            <AiFillStar className="rating-star" />
+            <AiFillStar className="rating-star" />
+            <AiFillStar className="rating-star" />
+            <AiFillStar className="rating-star" />
             <span className="total-reviews">4</span>
           </div>
           <div className="card-price">
             <div className="price">
               <del>$300</del>
+              <span>200</span>
             </div>
             <div className="bag">
               <BsFillBagFill className="bag-icon" />
